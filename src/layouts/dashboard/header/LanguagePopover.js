@@ -7,18 +7,23 @@ import { Box, MenuItem, Stack, IconButton, Popover } from '@mui/material';
 
 const LANGS = [
   {
+    value: 'pt-br',
+    label: 'Brasil',
+    icon: '/assets/icons/brasil.svg',
+  },
+  {
     value: 'en',
-    label: 'English',
-    icon: '/assets/icons/ic_flag_en.svg',
+    label: 'USA',
+    icon: '/assets/icons/Bandera-USA.svg',
   },
   {
     value: 'de',
-    label: 'German',
+    label: 'Alemanha',
     icon: '/assets/icons/ic_flag_de.svg',
   },
   {
     value: 'fr',
-    label: 'French',
+    label: 'França',
     icon: '/assets/icons/ic_flag_fr.svg',
   },
 ];
