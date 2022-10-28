@@ -16,39 +16,39 @@ import { useNavigate } from 'react-router-dom';
 const tiers = [
   {
     title: 'Básico',
-    price: '0',
+    price: '99',
     description: [
-      '10 users included',
-      '2 GB of storage',
-      'Help center access',
-      'Email support',
+      '1 dispositivo simultâneo',
+      '2 GB de armazenamento',
+      'Acesso online',
+      '',
     ],
-    buttonText: 'Sign up for free',
+    buttonText: 'Assinar',
     buttonVariant: 'outlined',
   },
   {
     title: 'Padrão',
     subheader: 'Popular',
-    price: '15',
+    price: '99',
     description: [
-      '20 users included',
-      '10 GB of storage',
-      'Help center access',
-      'Priority email support',
+      '3 dispositivos simultâneos',
+      '10 GB de armazenamento',
+      'Acesso offline',
+      '',
     ],
-    buttonText: 'Get started',
+    buttonText: 'Assinar',
     buttonVariant: 'contained',
   },
   {
     title: 'Empresarial',
-    price: '30',
+    price: '99',
     description: [
-      '50 users included',
-      '30 GB of storage',
-      'Help center access',
-      'Phone & email support',
+      '10 dispositivos simultâneos',
+      '30 GB de armazenamento',
+      'Acesso offline',
+      '',
     ],
-    buttonText: 'Contact us',
+    buttonText: 'Assinar',
     buttonVariant: 'outlined',
   },
 ];
@@ -119,7 +119,7 @@ function PricingContent() {
                       R${tier.price}
                     </Typography>
                     <Typography variant="h6" color="text.secondary">
-                      /mo
+                      /mês
                     </Typography>
                   </Box>
                   <ul>
